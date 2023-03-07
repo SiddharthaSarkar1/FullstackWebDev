@@ -1,0 +1,45 @@
+This is vscode command prompt
+Ctrl+Shift+p
+-------------------------------------------------
+Here we have to write to open the html file with live server
+>open live server
+-------------------------------------------------
+<!DOCTYPE html>
+This line tells our browser that the document is a html 5 type document
+--------------------------------------------------
+<body>
+    
+</body>
+
+This opening and closing tags, the entire thing is called as element.
+--------------------------------------------------------
+<html lang="en">
+
+within the html tag this lang is an attribute
+---------------------------------------------------
+Useful link to learn more
+https://developer.mozilla.org/
+
+--------------------------------------------------------
+White Spaces means
+tabs, Spaces, entire
+-------------------------------------------------
+<br/> is a single sided tag.
+<h1><h1/>, <p><p/> these are double sided tags.
+-----------------------------------------
+Block elements will take entore Horizontal strip. h1 to h6, p are block element
+
+------------------------------------------------------
+for table
+<tr> --> rows
+<td> --> cells
+
+------------------------------------------------------
+netlify drop
+-------------------------------------------------
+type lorem to get some text
+i.e. lorem50 for 50 words
+
+------------------------------------------
+if we set bot height and width in an <img> tag then it can disturb the aspect ratio of an image for that its better to set only height or width according to your requirement to mentain the aspect ratio.
+---------------------------------------------------------
