@@ -1,0 +1,4 @@
+One element should have one id.
+We can use same class in multiple element but for is each element should have one particular id.
+------------------------------------------------------------------------------------------------
+HTML work in a top to bottom fashion only.

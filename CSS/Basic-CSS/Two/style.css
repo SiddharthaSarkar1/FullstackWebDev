@@ -1,0 +1,49 @@
+*{
+    font-style: italic;
+}
+h2 + p{
+    font-weight: bold;
+}
+/*General Sibling Combinator*/
+h2 ~ p {
+    color: red;
+}
+
+/*Child Combinator*/
+section > p {
+    background-color: aqua;
+}
+
+/*Descendant Combinator*/
+
+section  p {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.box{
+    height: 180px;
+    width: 180px;
+    background-color: orange;
+    padding: 10px;
+    color: darkslateblue;
+}
+
+.box:hover{
+    background-color: darkgreen;
+    color: beige;
+    font-weight: bold;
+}
+/*"active" state is when you hover and click on thet element in this example click on the box*/
+.box:active{
+    height: 280px;
+    width: 280px;
+    background-color: purple;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.inp:focus{
+    font-size: 30pt;
+    width: 300px;
+}
