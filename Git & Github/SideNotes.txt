@@ -7,4 +7,8 @@ git add .
 git commit -m "message according to the change"
 git diff
 git log
+git log --oneline
 git checkout <commit id>
+git branch
+git checkout main
+git checkout -b <Branch Name>
