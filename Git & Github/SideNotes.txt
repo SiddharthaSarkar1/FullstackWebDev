@@ -14,3 +14,4 @@ git checkout <commit id>
 git branch
 git checkout main
 git checkout -b <Branch Name>
+git branch -d Sid_FeatureOne  ==> This will delete the Sid_FeatureOne branch.
