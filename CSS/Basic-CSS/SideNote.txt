@@ -2,3 +2,7 @@ One element should have one id.
 We can use same class in multiple element but for is each element should have one particular id.
 ------------------------------------------------------------------------------------------------
 HTML work in a top to bottom fashion only.
+---------------------------------------------------------------------------------------
+class used for many:many mapping.
+id is used for one:one mapping.
+------------------------------------------------------

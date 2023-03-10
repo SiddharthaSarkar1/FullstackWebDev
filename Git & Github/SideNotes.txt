@@ -1,0 +1,10 @@
+git init
+ls
+ls -a
+git status
+git add <filrname>
+git add .
+git commit -m "message according to the change"
+git diff
+git log
+git checkout <commit id>
