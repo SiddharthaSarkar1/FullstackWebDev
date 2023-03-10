@@ -8,8 +8,9 @@ git commit -m "message according to the change"
 git diff
 git log
 git checkout <commit id>
-
-
-
-
 git merge Sid_FeatureOne
+git log --oneline
+git checkout <commit id>
+git branch
+git checkout main
+git checkout -b <Branch Name>
