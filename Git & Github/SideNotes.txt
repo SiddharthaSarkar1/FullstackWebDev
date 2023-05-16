@@ -1,10 +1,16 @@
+#Setting up username and password
+git config user.name 'CoderSid'
+git config user.email 'CoderSid@sidmail.com'
+
 git init
 ls
 ls -a
 git status
 git add <filrname>
 git add .
+#Commit command (-m stands for a messahe and always your message should be an istructional format)
 git commit -m "message according to the change"
+
 git diff
 git log
 git checkout <commit id>
@@ -13,5 +19,19 @@ git log --oneline
 git checkout <commit id>
 git branch
 git checkout main
+
+#It creates a nwe branch and move to that branch
 git checkout -b <Branch Name>
+
 git branch -d Sid_FeatureOne  ==> This will delete the Sid_FeatureOne branch.
+Clone repository
+git clone git@github.com:SiddharthaSarkar1/FullstackWebDev.git
+git config --list
+
+#Credential helper is just for clearing out the old username and password so that we can set new credentials====
+git config credential.helper
+
+#by making it blank will remove its value
+git config credential.helper ''
+
+
