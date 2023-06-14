@@ -1,0 +1,5 @@
+Documentation of JQuery
+learn.jquery.com
+
+For UI
+jqueryui.com
